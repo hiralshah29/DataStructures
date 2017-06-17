@@ -1,8 +1,6 @@
 package CodingAlgo;
 
-import java.util.ArrayList;
 import java.util.Arrays;
-import java.util.Collections;
 import java.util.List;
 
 class Comparator {
@@ -66,30 +64,19 @@ public class TestMainPro {
         System.out.println(a);
     }
 
-    /*private void testElectionCount() {
-
-        List<Integer> voterCount = new ArrayList<Integer>();
-        voterCount.add(8);
-        voterCount.add(12);
-        voterCount.add(17);
-        voterCount.add(20);
-        voterCount.add(22);
-        voterCount.add(5);
-        voterCount.add(6);
-
-        Collections.sort(voterCount, new Comparator<Integer>() {
-
-            @Override
-            public int compare(Integer o1, Integer o2) {
-                // TODO Auto-generated method stub
-                return o2.compareTo(o1);
-            }
-
-        });
-
-        System.out.println(voterCount);
-    }
-*/
+    /*
+     * private void testElectionCount() {
+     * 
+     * List<Integer> voterCount = new ArrayList<Integer>(); voterCount.add(8); voterCount.add(12); voterCount.add(17); voterCount.add(20); voterCount.add(22); voterCount.add(5); voterCount.add(6);
+     * 
+     * Collections.sort(voterCount, new Comparator<Integer>() {
+     * 
+     * @Override public int compare(Integer o1, Integer o2) { // TODO Auto-generated method stub return o2.compareTo(o1); }
+     * 
+     * });
+     * 
+     * System.out.println(voterCount); }
+     */
     public static boolean isBinary(int number) {
         int copyOfInput = number;
         while (copyOfInput != 0) {
