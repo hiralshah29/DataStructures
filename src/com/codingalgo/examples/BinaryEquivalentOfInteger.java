@@ -1,5 +1,7 @@
 package com.codingalgo.examples;
 
+/** Finds the binary equivalent of an int  */
+
 public class BinaryEquivalentOfInteger {
 	
 	public static void main(String[] args) {

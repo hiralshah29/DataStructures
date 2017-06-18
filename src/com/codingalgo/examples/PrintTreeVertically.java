@@ -1,9 +1,9 @@
-package CodingAlgo;
+package com.codingalgo.examples;
 
 import java.util.ArrayList;
 import java.util.HashMap;
 
-import model.TreeNode;
+import com.codingalgo.model.TreeNode;
 
 // Class for a Binary Tree
 class Tree {

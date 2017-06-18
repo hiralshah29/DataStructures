@@ -1,8 +1,8 @@
-package CodingAlgo;
+package com.codingalgo.examples;
 
 import java.util.LinkedList;
 
-import model.TreeNode;
+import com.codingalgo.model.TreeNode;
 
 public class SerializeBinaryTree {
 

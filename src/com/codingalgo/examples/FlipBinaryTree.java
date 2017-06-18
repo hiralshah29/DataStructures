@@ -1,6 +1,6 @@
-package CodingAlgo;
+package com.codingalgo.examples;
 
-import model.TreeNode;
+import com.codingalgo.model.TreeNode;
 
 public class FlipBinaryTree {
 

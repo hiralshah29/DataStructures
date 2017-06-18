@@ -1,4 +1,4 @@
-package model;
+package com.codingalgo.model;
 
 //Class for a tree node
 public class TreeNode {

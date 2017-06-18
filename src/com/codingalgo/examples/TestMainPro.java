@@ -1,4 +1,4 @@
-package CodingAlgo;
+package com.codingalgo.examples;
 
 import java.util.Arrays;
 import java.util.List;

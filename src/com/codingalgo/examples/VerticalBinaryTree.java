@@ -1,6 +1,6 @@
-package CodingAlgo;
+package com.codingalgo.examples;
 
-import model.Node;
+import com.codingalgo.model.Node;
 
 //Java program to print binary tree in reverse order
 
