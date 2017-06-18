@@ -1,6 +1,6 @@
-package CodingAlgo;
+package com.codingalgo.examples;
 
-import model.ListNode;
+import com.codingalgo.model.ListNode;
 
 class LinkedListPalindrome {
     ListNode head;

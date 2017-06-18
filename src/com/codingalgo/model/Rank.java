@@ -1,4 +1,4 @@
-package model;
+package com.codingalgo.model;
 
 public enum Rank {
     DIRECTOR(0),

@@ -1,4 +1,4 @@
-package model;
+package com.codingalgo.model;
 
 public class Node {
     public int data;
