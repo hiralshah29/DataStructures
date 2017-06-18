@@ -1,4 +1,4 @@
-package com.codingalgo.examples;
+package com.codingalgo.examples.LinkedList;
 
 import com.codingalgo.model.ListNode;
 

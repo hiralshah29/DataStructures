@@ -1,4 +1,4 @@
-package com.codingalgo.examples;
+package com.codingalgo.examples.Stack;
 
 import java.util.HashMap;
 import java.util.HashSet;

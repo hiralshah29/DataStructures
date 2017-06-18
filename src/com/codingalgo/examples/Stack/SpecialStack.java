@@ -1,4 +1,4 @@
-package com.codingalgo.examples;
+package com.codingalgo.examples.Stack;
 
 /** Stack implementation using generic array */
 

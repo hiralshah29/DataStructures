@@ -1,4 +1,4 @@
-package com.codingalgo.examples;
+package com.codingalgo.examples.misc;
 
 import java.util.ArrayList;
 import java.util.List;

@@ -1,4 +1,4 @@
-package com.codingalgo.examples;
+package com.codingalgo.examples.misc;
 
 /** Finds the binary equivalent of an int  */
 

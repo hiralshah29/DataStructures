@@ -1,4 +1,4 @@
-package com.codingalgo.examples;
+package com.codingalgo.examples.Graph;
 
 // Java program to print DFS traversal from a given given graph
 import java.util.Iterator;

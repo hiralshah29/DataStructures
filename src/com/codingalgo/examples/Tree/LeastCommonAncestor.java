@@ -1,4 +1,4 @@
-package com.codingalgo.examples;
+package com.codingalgo.examples.Tree;
 
 //Java implementation to find lowest common ancestor of
 //n1 and n2 using one traversal of binary tree

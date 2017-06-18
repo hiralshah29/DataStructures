@@ -1,4 +1,4 @@
-package com.codingalgo.examples;
+package com.codingalgo.examples.Array;
 
 /** Longest increasing subsequence */
 public class LIS {

@@ -1,4 +1,4 @@
-package com.codingalgo.examples;
+package com.codingalgo.examples.misc;
 
 import com.codingalgo.model.TreeNode;
 
