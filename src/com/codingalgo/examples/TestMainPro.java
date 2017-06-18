@@ -44,6 +44,7 @@ public class TestMainPro {
         int[] arry2 = { 7, 9, 5, 6, 3, 2 };
         // System.out.println(pro.isBinaryPal(11000011));
         // System.out.println(pro.maxDifference(arry2));
+        System.out.println("Tests");
 
         try {
             List ints = Arrays.asList(1, 2, 3);
