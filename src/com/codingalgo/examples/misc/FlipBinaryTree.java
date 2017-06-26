@@ -10,14 +10,14 @@ public class FlipBinaryTree {
         // Base cases
         if (root == null)
             return root;
+        
         if (root.left == null && root.right == null)
             return root;
 
         // recursively call the same method
         TreeNode flippedRoot = flipBinaryTree(root.left);
 
-        // rearranging main root Node after returning
-        // from recursive call
+        // rearranging main root Node after returning from recursive call
         root.left.left = root.right;
         root.left.right = root;
         root.left = null;

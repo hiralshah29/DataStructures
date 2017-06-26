@@ -68,7 +68,6 @@ public class TrieExample {
         for (int i = 0; i < contact.length(); i++) {
 
             Map<Character, TrieNode> children = crawl.getChildren();
-
             if (children.containsKey(contact.charAt(i))) {
                 crawl = children.get(contact.charAt(i));
             } else {

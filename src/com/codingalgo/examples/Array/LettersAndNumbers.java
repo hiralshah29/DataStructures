@@ -1,6 +1,9 @@
 package com.codingalgo.examples.Array;
 
 import java.util.HashMap;
+import java.util.Map;
+
+/** Find longest sub-array with equal number of letters and numbers */
 
 public class LettersAndNumbers {
 	
@@ -23,8 +26,7 @@ public class LettersAndNumbers {
 //		 return extract(array, match[0] + 1, match[1]);
 	 }
 	
-	 /* Compute the difference between the number of letters and numbers between the
-	 * beginning of the array and each index. */
+	 /* Compute the difference between the number of letters and numbers between the beginning of the array and each index. */
 	 int[] computeDeltaArray(char[] array) {
 		 int[] deltas = new int[array.length];
 		 int delta = 0;
@@ -39,8 +41,7 @@ public class LettersAndNumbers {
 		 return deltas;
 	 }
 
-	 /* Find the matching pair of values in the deltas array with the largest
-	 * difference in indices. */
+	 /* Find the matching pair of values in the deltas array with the largest difference in indices. */
 	 int[] findlongestMatch(int[] deltas) {
 		 HashMap<Integer, Integer> map= new HashMap<Integer, Integer>();
 		 map.put(0, -1);
@@ -64,4 +65,5 @@ public class LettersAndNumbers {
 	 char[] extract(char[] array, int start, int end) {
 		 return null;
 	 }
+	 
 }

@@ -51,7 +51,9 @@ class VerticalBinaryTree {
     void verticalOrder(Node node) {
         // Find min and max distances with resepect to root
         findMinMax(node, val, val, 0);
-
+        System.out.println("Min = "+val.min);
+        System.out.println("Max = "+val.max);
+        
         // Iterate through all possible vertical lines starting
         // from the leftmost line and print nodes line by line
         for (int line_no = val.min; line_no <= val.max; line_no++) {
@@ -65,15 +67,25 @@ class VerticalBinaryTree {
         VerticalBinaryTree tree = new VerticalBinaryTree();
 
         /* Let us construct the tree shown in above diagram */
-        tree.root = new Node(1);
-        tree.root.left = new Node(2);
-        tree.root.right = new Node(3);
-        tree.root.left.left = new Node(4);
-        tree.root.left.right = new Node(5);
-        tree.root.right.left = new Node(6);
-        tree.root.right.right = new Node(7);
-        tree.root.right.left.right = new Node(8);
-        tree.root.right.right.right = new Node(9);
+//        tree.root = new Node(1);
+//        tree.root.left = new Node(2);
+//        tree.root.right = new Node(3);
+//        tree.root.left.left = new Node(4);
+//        tree.root.left.right = new Node(5);
+//        tree.root.right.left = new Node(6);
+//        tree.root.right.right = new Node(7);
+//        tree.root.right.left.right = new Node(8);
+//        tree.root.right.right.right = new Node(9);
+        
+        tree.root  = new Node(10);
+        tree.root.left = new Node(28);
+        tree.root.right = new Node(13);
+        tree.root.right.left = new Node(14);
+        tree.root.right.right = new Node(15);
+        tree.root.right.left.left = new Node(21);
+        tree.root.right.left.right = new Node(22);
+        tree.root.right.right.right = new Node(24);
+        tree.root.right.right.left = new Node(23);
 
         System.out.println("vertical order traversal is :");
         tree.verticalOrder(tree.root);

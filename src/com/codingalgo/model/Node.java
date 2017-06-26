@@ -10,4 +10,7 @@ public class Node {
         left = right = null;
     }
 
+    public String toString(){
+    	return ""+data;
+    }
 }

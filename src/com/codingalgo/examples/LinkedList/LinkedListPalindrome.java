@@ -5,8 +5,7 @@ import com.codingalgo.model.ListNode;
 class LinkedListPalindrome {
     ListNode head;
 
-    // A utility function to check if str is palindrome
-    // or not
+    // A utility function to check if str is palindrome or not
     boolean isPalidromeUtil(String str) {
         int length = str.length();
 
@@ -19,8 +18,7 @@ class LinkedListPalindrome {
         return true;
     }
 
-    // Returns true if string formed by linked
-    // list is palindrome
+    // Returns true if string formed by linked list is palindrome
     boolean isPalindrome() {
         ListNode node = head;
 
@@ -46,5 +44,5 @@ class LinkedListPalindrome {
 
         System.out.println(list.isPalindrome());
 
-    }
+    }    
 }

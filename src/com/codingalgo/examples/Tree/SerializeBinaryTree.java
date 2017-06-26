@@ -6,6 +6,16 @@ import com.codingalgo.model.TreeNode;
 
 public class SerializeBinaryTree {
 
+		/*******************************
+				  10
+				/       \
+			28         13
+					    /     \
+					  14      15
+					 /   \     /   \
+				  21   22   23   24
+	
+	*******************************/
     // Encodes a tree to a single string.
     public String serialize(TreeNode root) {
         if (root == null) {
@@ -13,7 +23,6 @@ public class SerializeBinaryTree {
         }
 
         StringBuilder sb = new StringBuilder();
-
         LinkedList<TreeNode> queue = new LinkedList<TreeNode>();
 
         queue.add(root);
@@ -76,7 +85,20 @@ public class SerializeBinaryTree {
     }
 
     public static void main(String[] args) {
-        // TODO Auto-generated method stub
+    	
+    	TreeNode root  = new TreeNode(10);
+		root.left = new TreeNode(28);
+		root.right = new TreeNode(13);
+		root.right.left = new TreeNode(14);
+		root.right.right = new TreeNode(15);
+		root.right.left.left = new TreeNode(21);
+		root.right.left.right = new TreeNode(22);
+		root.right.right.right = new TreeNode(24);
+		root.right.right.left = new TreeNode(23);
+        
+		String ser = new SerializeBinaryTree().serialize(root);
+		TreeNode n = new SerializeBinaryTree().deserialize(ser);
+		System.out.println(n.key);
 
     }
 
