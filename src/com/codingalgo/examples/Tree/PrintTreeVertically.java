@@ -17,11 +17,8 @@ public class 	PrintTreeVertically {
 			return;
 		}
 		
-		ArrayList<Integer> list = null;
-		
-		if(verticle.containsKey(hd)){
-			list = verticle.get(hd);
-		}else{
+		ArrayList<Integer> list = verticle.get(hd);		
+		if(list == null){
 			list = new ArrayList<Integer>();		
 		}
 		

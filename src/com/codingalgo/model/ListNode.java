@@ -3,6 +3,8 @@ package com.codingalgo.model;
 public class ListNode {
     public String data;
     public ListNode next;
+    
+    public ListNode prev;
     public int intData;
 
     public ListNode(String data) {
@@ -13,6 +15,6 @@ public class ListNode {
     public ListNode(int data) {
         this.intData = data;
         next = null;
+        prev = null;
     }
-
 }

@@ -9,12 +9,12 @@ public class QueueImplementationUsingStacks<T> {
 	    Stack<T> value = new Stack<>();
 	 
 	    // Push element x to the back of queue.
-	    public void push(T x) {
+	    public void offer(T x) {
 	    	value.push(x);
 	    }
 	 
 	    // Removes the element from in front of queue.
-	    public T pop() {
+	    public T poll() {
 	        
 	    	if(value.isEmpty() && temp.isEmpty())
 	    		throw new NoSuchElementException();
@@ -44,12 +44,12 @@ public class QueueImplementationUsingStacks<T> {
 			
 	    	QueueImplementationUsingStacks<Integer> q = new QueueImplementationUsingStacks<>();
 	    	for(int i = 1 ; i <=5 ; i++){
-	    		q.push(i);
-		    	System.out.println("Added: "+i);
+	    		q.offer(i);
+		    	System.out.println("Offer: "+i);
 	    	}
 	    	
 	    	System.out.println("Peek: "+q.peek());
-	    	System.out.println("Pop: "+q.pop());
+	    	System.out.println("Poll: "+q.poll());
 	    	System.out.println("Peek: "+q.peek());
 	    	
 		}

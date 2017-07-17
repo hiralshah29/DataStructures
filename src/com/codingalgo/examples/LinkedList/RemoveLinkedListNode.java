@@ -27,6 +27,8 @@ public class RemoveLinkedListNode {
 				six.next=one1;
 				one1.next=three3;
 				
+				print(head);
+				System.out.println();
 				print(removeNode(head,3));
 				
 		}
@@ -35,7 +37,7 @@ public class RemoveLinkedListNode {
 			
 			ListNode curr = head;
 			
-			if(head.intData > k){
+			if(head.intData >k){
 				head = head.next;
 			}		
 			
@@ -56,7 +58,7 @@ public class RemoveLinkedListNode {
 			ListNode curr = head;
 			
 			while(curr != null){
-				System.out.print(curr.data +" ");
+				System.out.print(curr.intData +" ");
 				curr = curr.next;
 			}
 		}

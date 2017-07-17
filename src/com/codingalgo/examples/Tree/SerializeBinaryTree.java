@@ -80,7 +80,6 @@ public class SerializeBinaryTree {
             }
             i++;
         }
-
         return root;
     }
 

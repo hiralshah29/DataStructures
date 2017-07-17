@@ -5,6 +5,7 @@ import com.codingalgo.model.Node;
 public class BST_DeleteNode {
 
 	public static Node deleteNode(Node n,int k){
+		
 		if(n == null){
 			return n;
 		}
@@ -41,7 +42,7 @@ public class BST_DeleteNode {
 		                8
 		              /   \
 		             4     12
-		           /  \   /  \
+		           /  \   /    \
 		          2    6 10   14
 		  */
 	 	

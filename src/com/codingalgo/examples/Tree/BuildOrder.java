@@ -78,7 +78,7 @@ public class BuildOrder {
 		projects[4]=e;
 		projects[5]=f;
 		
-		String[][] dep = {{ a,d},{f,b},{b,d},{f,a},{d,c}};
+		String[][] dep = {{a,d},{f,b},{b,d},{f,a},{d,c}};
 		
 		BuildOrder build = new BuildOrder(projects);
 		build.addEdge(dep);

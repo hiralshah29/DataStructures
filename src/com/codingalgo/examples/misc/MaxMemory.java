@@ -40,8 +40,7 @@ public class MaxMemory {
 			a[k.getEnd()+1]-=k.getMemory();
 		}	
 		
-		for(int i = 0 ; i < a.length ; i++){
-			
+		for(int i = 0 ; i < a.length ; i++){			
 			totalMemory+=a[i];
 			a[i] = totalMemory;
 			if(totalMemory > maxMemory){

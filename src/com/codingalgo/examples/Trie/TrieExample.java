@@ -7,10 +7,10 @@ public class TrieExample {
 
     class TrieNode {
 
-        char c;
-        int count;
-        boolean isEnd;
-        Map<Character, TrieNode> map;
+        private char c;
+        private int count;
+        private boolean isEnd;
+        private Map<Character, TrieNode> map;
 
         TrieNode(char d) {
             c = d;
@@ -75,7 +75,6 @@ public class TrieExample {
             }
         }
         return crawl.getCount();
-
     }
 
     public static void main(String[] args) {

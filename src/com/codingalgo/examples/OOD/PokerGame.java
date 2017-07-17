@@ -3,7 +3,7 @@ package com.codingalgo.examples.OOD;
 import java.util.Random;
 
 public class PokerGame {
-	public static void main(String[] args) {        
+	public static void main(String[] args) {
         Game game = new Game();
         game.dealCards();
         game.showCards();

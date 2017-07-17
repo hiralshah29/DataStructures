@@ -25,7 +25,6 @@ public class LeastCommonAncestor {
 		
 		return (left == null) ? right : left;
 	}	
-	
 	public static void main(String[] args) {
 		
 		LeastCommonAncestor lca = new LeastCommonAncestor();

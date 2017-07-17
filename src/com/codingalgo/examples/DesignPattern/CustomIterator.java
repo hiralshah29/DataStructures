@@ -1,4 +1,4 @@
-package com.codingalgo.examples.misc;
+package com.codingalgo.examples.DesignPattern;
 
 import com.codingalgo.model.Book;
 import java.util.Iterator;
