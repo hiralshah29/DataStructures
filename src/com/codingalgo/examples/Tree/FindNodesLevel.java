@@ -2,7 +2,7 @@ package com.codingalgo.examples.Tree;
 
 import com.codingalgo.model.Node;
 
-public class PrintAllNodesAtDistanceK {
+public class FindNodesLevel {
 	   // Driver program to test the above functions
 	/*******************************
 			  10
@@ -33,7 +33,7 @@ public class PrintAllNodesAtDistanceK {
 	
 	public static void main(String[] args) {
 		
-		PrintAllNodesAtDistanceK tree = new PrintAllNodesAtDistanceK();
+		FindNodesLevel tree = new FindNodesLevel();
 		
 		Node root  = new Node(10);
 		root.left = new Node(28);
