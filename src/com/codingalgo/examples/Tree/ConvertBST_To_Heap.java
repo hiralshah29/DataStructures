@@ -121,10 +121,10 @@ public class ConvertBST_To_Heap {
 		System.out.print("BST - ");
 		inorder(root);
 		
-		convertBstToMinHeap(root);
-		System.out.println();
-		System.out.print("Min - ");
-		inorder(rootOfMinHeap);
+//		convertBstToMinHeap(root);
+//		System.out.println();
+//		System.out.print("Min - ");
+//		inorder(rootOfMinHeap);
 		
 		convertBstToMaxHeap(root);
 		System.out.println();
