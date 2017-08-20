@@ -39,7 +39,7 @@ public class FlatteningList {
 			 
 		  for(Object obj : nestedList){
 		        
-			  if(obj instanceof List){ 
+			   if(obj instanceof List){ 
 				  flattenList((List<Object>)obj);
 		        }  
 		        if(obj instanceof Integer){

@@ -69,7 +69,7 @@ public class UserBuilderPattern {
 			   									UserBuilderPattern.UserBuilder()
 		   											.fname("Hiral")
 		   											.lname("Shah")
-		   											.age("33")
+//		   											.age("33")
 		   											.addr("USA")
 		   											.build();
 	   

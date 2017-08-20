@@ -5,7 +5,7 @@ import java.util.Queue;
 
 import com.codingalgo.model.Node;
 
-public class ConvertBST_To_Heap {
+public class BST_To_Heap {
 
 	public static int countForMinHeap = 0;
 	public static int countForMaxHeap = 0;

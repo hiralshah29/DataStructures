@@ -32,14 +32,13 @@ public class BST_Inorder_Pred_Succ {
 				if(root.right != null){
 					// succ = leftmost node of right subtree
 					succ = root.right;
-					while(pred.left!=null){
-						pred=pred.left;
+					while(succ.left!=null){
+						succ=succ.left;
 					}
 				}
 				return;
 			}		
-	}
-	
+	}	
 
 	 public static void main(String[] args) {
 			
@@ -62,7 +61,7 @@ public class BST_Inorder_Pred_Succ {
 		root.left.right.left = new Node(10);
 		root.left.right.right = new Node(14);
 		
-		tree.findPreSucc(root,12);
+		tree.findPreSucc(root,8);
 		System.out.println(tree.pred);
 		System.out.println(tree.succ);
 

@@ -5,9 +5,7 @@ import com.codingalgo.model.Node;
 public class BST_MinAbsDifference {
 	 Node root;
 	 
-
-	 
-	 int min = Integer.MAX_VALUE;
+	    int min = Integer.MAX_VALUE;
 	    Integer prev = null;
 	    
 	    public int getMinimumDifference(Node root) {

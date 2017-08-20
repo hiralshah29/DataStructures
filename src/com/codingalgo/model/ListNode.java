@@ -17,4 +17,11 @@ public class ListNode {
         next = null;
         prev = null;
     }
+
+	@Override
+	public String toString() {
+		return "ListNode [intData=" + intData + "]";
+	}
+    
+    
 }

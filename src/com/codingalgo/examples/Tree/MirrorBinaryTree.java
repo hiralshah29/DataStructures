@@ -20,7 +20,7 @@ public class MirrorBinaryTree {
 			             /   \
 			           3      2
 					          /  \
-					        4     5
+					        5     4
 	        */
 	    	
 		  	MirrorBinaryTree tree = new MirrorBinaryTree();
@@ -30,8 +30,20 @@ public class MirrorBinaryTree {
 	        tree.root.left.left = new Node(4);
 	        tree.root.left.right = new Node(5);
 	        
-	        tree.mirror(tree.root);
+	        tree.print(tree.root);
+	        Node r = tree.mirror(tree.root);
+	        System.out.println("");
+	        tree.print(r);
+	        
+	        
 	    }
+	  
+	  public void print(Node r){
+		  if(r==null) return;
+		  print(r.left);
+		  System.out.print(r.data + " ");
+		  print(r.right);
+	  }
 	  
 	   Node mirror(Node node)
 	    {
@@ -48,4 +60,5 @@ public class MirrorBinaryTree {
 	 
 	        return node;
 	    }
+
 }

@@ -32,7 +32,8 @@ public class StackImplementationUsingGenericArray<T> {
 		if(top == -1){
 			throw new java.util.NoSuchElementException();
 		}
-		return arr[top];
+		int temp = top-1;
+		return arr[temp];
 	}
 	
 	public void resize(int capacity){
@@ -46,12 +47,15 @@ public class StackImplementationUsingGenericArray<T> {
 		StackImplementationUsingGenericArray<Integer> s = new StackImplementationUsingGenericArray<>(3);
 		
 		s.push(29);
+		System.out.println(s.peek());
 		s.push(3);
 		s.push(10);
+		System.out.println(s.peek());
 		s.push(12);
 		s.push(2);
 		s.push(16);
 		
+		System.out.println(s.peek());
 		System.out.println(s.pop());
 		System.out.println(s.peek());
 		
